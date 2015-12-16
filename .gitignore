@@ -1,0 +1,10 @@
+hooks/*
+platforms/*
+.DS_Store
+.cordova
+/nbproject/private/
+nbproject/*
+jetui/mockdata/videos
+build/dist
+doc/out
+workspace
