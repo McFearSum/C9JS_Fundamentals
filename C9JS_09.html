@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>9. Looping Statements in JavaScript </title>
+	<script type="text/javascript">
+
+	var playlist = []; /*
+					"one for the Team" ,
+	                "the Joy Formidable" ,
+	                "Young the Giant",
+	                "Washed out" 
+	                ]; */
+	playlist["one for the team"] = 10;
+	playlist["the Joy Formidable"] = 9;
+	playlist["Young the Giant"] = 8;
+	playlist["Washed out"] = 7;
+
+/*
+	// while
+	var i = 0;
+	while (i < playlist.length) {
+		document.write("<br />Now Playing:" + playlist[i]);
+		i++;
+	}                
+
+// do - while
+
+	var someResult = false;
+	do {
+		document.write("Will print AT LEAST once!")
+	}
+	while (someResult);
+	
+
+// for loop
+	for (var i = 0; i < playlist.length; i++) {
+		document.write("<br />Now Playing: " + playlist[i]);
+	}
+*/
+// for ... in  works with an associative array.  Returns numeric value?
+for (i in playlist) {
+	 document.write("<br />Now Playing: " + playlist[i]);
+}
+
+/*
+// for loop reverse
+	for (var i = playlist.length -1; i >  -1; i--) {
+		document.write("<br />Now Playing: " + playlist[i]);
+	}
+*/
+
+	</script>
+</head>
+<body>
+	<h1>9. Looping Statements in JavaScript </h1>
+</body>
+</html>
