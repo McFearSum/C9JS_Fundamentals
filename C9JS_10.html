@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>10. Global Scope versus Function Scope</title>
+	<script type="text/javascript">
+/*
+	// Debunk the notion of block scope in javascript;
+	if (true) 
+	{
+		var x = 5;  // variable x is inside a block
+	}
+	alert(x); // We can access x outside the block.  SWEET
+*/
+myScope = "global";
+
+/*
+(function() {
+	if (true)
+	{
+		var myScope = "function";
+	}
+	//var myScope = "function";
+	//myScope = "I set this inside the function";
+	alert('inside the function, the scope is: ' + myScope);
+}) ()
+
+alert('outside the function, the scope is: ' + myScope);
+*/
+
+alert("window.myScope " + window.myScope);
+	</script>
+</head>
+<body>
+	<h1>10. Global Scope versus Function Scope</h1>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>13. Understanding the Document Object Model</title>
+	<script type="text/javascript" src="C9JS_13.js"></script>
+	<script type="text/javascript">
+		document.getElementById('clickMe').onclick = runTheExample;
+	</script>
+</head>
+<body>
+	<h1 id="title">13. Understanding the Document Object Model</h1>
+	<div id="main">
+		<p id="first">This is the first paragraph</p>
+		<p id="second">
+			<strong>Second paragraph</string>
+		</p>
+		<p id="third">Third paragraph</p>
+	</div>
+	<div id="form">
+			<!--  This next sniplet does not run because it is before the input 
+			<script type="text/javascript">
+				document.getElementById('clickMe').onclick = runTheExample;
+			</script> -->
+		<input type="submit" id="clickMe" value="Click Me" />
+		<!--  This next sniplet does run because it is after the input -->
+			<script type="text/javascript">
+				document.getElementById('clickMe').onclick = runTheExample;
+			</script> 
+		<a href="http://www.bing.com" id="myAnchor">Bing!</a>
+	</div>
+</body>
+</html>
