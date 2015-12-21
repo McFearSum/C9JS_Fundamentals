@@ -1,0 +1,9 @@
+.standout {
+	color:red;
+	text-align:left;
+	font-size:20pt;
+}
+
+.highlight {
+	background-color:yellow;
+}
