@@ -19,3 +19,13 @@ If it doesn't work check:
 
 */
 
+// As always test to make sure JavaScript is working before doing anything else:
+
+$(function() {
+	alert("Yes JavaScript works!!!");
+	$("#tabs").tabs().tabs("add", "C9JS_15.html", "Click-a-Bob");
+
+
+
+});
+

@@ -1,0 +1,25 @@
+.standout {
+	color:red;
+	text-align:left;
+	font-size:20pt;
+}
+
+#game {
+	width: 200px;
+	float: left;
+}
+#startover {
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	padding-top: 5px;
+	float: right;
+}
+.hoverOut {
+	color: blue;
+	background-color: yellow;
+}
+.hoverIn {
+	background-color: blue;
+	color: yellow;
+}

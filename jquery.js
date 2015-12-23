@@ -1,0 +1,1 @@
+/Users/patal/workspace/jQuery/jquery/dist/jquery.js
